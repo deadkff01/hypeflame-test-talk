@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Login Snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdnxRM hBgoUI"
+  >
+    <div>
+      <h1
+        class="font-bold text-4xl my-5"
+      >
+        Login
+      </h1>
+      <div
+        class="flex justify-center"
+      >
+        <div
+          class="w-3/12"
+        >
+          <div
+            class="sc-gtsrHT dnQHDr"
+          >
+            <div
+              class="control"
+            >
+              <input
+                data-testid="username"
+                id="username"
+                type="text"
+                value=""
+              />
+              <label
+                class=""
+                for="username"
+              >
+                Username
+              </label>
+            </div>
+            <span
+              class="error "
+              data-testid="error-username"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT dnQHDr"
+          >
+            <div
+              class="control"
+            >
+              <input
+                data-testid="password"
+                id="password"
+                type="password"
+                value=""
+              />
+              <label
+                class=""
+                for="password"
+              >
+                Password
+              </label>
+            </div>
+            <span
+              class="error "
+              data-testid="error-password"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="sc-dlnjwi iFxcWs mt-2"
+        data-testid="btn-login"
+        disabled=""
+        id="btn-login"
+      >
+        Entrar
+      </button>
+    </div>
+  </div>
+</div>
+`;
