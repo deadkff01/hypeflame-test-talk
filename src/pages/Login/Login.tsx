@@ -45,8 +45,8 @@ export const Login: React.FC<RouteComponentProps> = () => {
     <Container>
       <div>
         <h1 className={tw`font-bold text-4xl my-5`}>Login</h1>
-        <div className={tw`flex justify-center`}>
-          <div className={tw`w-3/12`}>
+        <div className={tw`flex justify-center px-3`}>
+          <div className={tw`w-full md:w-6/12 lg:w-4/12`}>
             <Input
               value={username}
               placeholder="Username"
