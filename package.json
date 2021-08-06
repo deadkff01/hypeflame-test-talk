@@ -26,6 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --watchAll",
+    "test:e2e": "cypress open",
     "eject": "react-scripts eject",
     "start:craco": "craco start",
     "build:craco": "craco build",
@@ -49,10 +50,15 @@
       "last 1 safari version"
     ]
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "devDependencies": {
     "@craco/craco": "^6.1.1",
     "@types/reach__router": "^1.3.9",
     "craco-esbuild": "^0.3.1",
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
     "msw": "^0.34.0"
   }
 }

@@ -1,0 +1,4 @@
+{
+  "testFiles": "**/*.{feature,features}",
+  "ignoreTestFiles": ["**/common/*", "*.js", "*.md"]
+}
